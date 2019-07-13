@@ -1,0 +1,16 @@
+./altor32_regfile_sim.v
+./altor32_ram_sp.v
+./altor32_ram_dp.v
+./altor32_alu.v
+./altor32_exec.v
+./altor32_lsu.v
+./altor32_dfu.v
+./altor32_lfu.v
+./altor32_wb_fetch.v
+./altor32_writeback.v
+./altor32_fetch.v
+./altor32_noicache.v
+./altor32_icache.v
+./altor32_dcache_mem_if.v
+./altor32_dcache.v
+./altor32.v

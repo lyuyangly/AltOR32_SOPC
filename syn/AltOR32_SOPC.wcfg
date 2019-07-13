@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/lyuyang/ProJect/AltOR32_SOPC/syn/AltOR32_SOPC_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="AltOR32_SOPC_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/AltOR32_SOPC_TB/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AltOR32_SOPC_TB/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AltOR32_SOPC_TB/led" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">led[3:0]</obj_property>
+      <obj_property name="ObjectShortName">led[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AltOR32_SOPC_TB/U_DUT/U_ALTOR32_CPU/dmem_addr_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dmem_addr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem_addr_o[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AltOR32_SOPC_TB/U_DUT/U_ALTOR32_CPU/dmem_dat_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dmem_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem_dat_o[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AltOR32_SOPC_TB/U_DUT/U_ALTOR32_CPU/dmem_dat_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dmem_dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem_dat_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AltOR32_SOPC_TB/U_DUT/U_ALTOR32_CPU/dmem_sel_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dmem_sel_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dmem_sel_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AltOR32_SOPC_TB/U_DUT/U_ALTOR32_CPU/dmem_cyc_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dmem_cyc_o</obj_property>
+      <obj_property name="ObjectShortName">dmem_cyc_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AltOR32_SOPC_TB/U_DUT/U_ALTOR32_CPU/dmem_we_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dmem_we_o</obj_property>
+      <obj_property name="ObjectShortName">dmem_we_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AltOR32_SOPC_TB/U_DUT/U_ALTOR32_CPU/dmem_stb_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dmem_stb_o</obj_property>
+      <obj_property name="ObjectShortName">dmem_stb_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AltOR32_SOPC_TB/U_DUT/U_ALTOR32_CPU/dmem_ack_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dmem_ack_i</obj_property>
+      <obj_property name="ObjectShortName">dmem_ack_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AltOR32_SOPC_TB/U_DUT/U_UART/wb_cyc_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_cyc_i</obj_property>
+      <obj_property name="ObjectShortName">wb_cyc_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AltOR32_SOPC_TB/U_DUT/U_UART/wb_stb_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_stb_i</obj_property>
+      <obj_property name="ObjectShortName">wb_stb_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AltOR32_SOPC_TB/U_DUT/U_UART/wb_ack_o" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_ack_o</obj_property>
+      <obj_property name="ObjectShortName">wb_ack_o</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AltOR32_SOPC_TB/U_DUT/U_UART/wb_we_i" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_we_i</obj_property>
+      <obj_property name="ObjectShortName">wb_we_i</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AltOR32_SOPC_TB/U_DUT/U_UART/wb_sel_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_sel_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_sel_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AltOR32_SOPC_TB/U_DUT/U_UART/wb_adr_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_adr_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_adr_i[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AltOR32_SOPC_TB/U_DUT/U_UART/wb_dat_i" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_dat_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_dat_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/AltOR32_SOPC_TB/U_DUT/U_UART/wb_dat_o" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_dat_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_dat_o[31:0]</obj_property>
+   </wvobject>
+</wave_config>
